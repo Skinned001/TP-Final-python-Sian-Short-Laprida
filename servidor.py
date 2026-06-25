@@ -6,7 +6,7 @@ import os
 
 # --- SEGURIDAD DE RUTA ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, 'modelo_spotify.pkl')
+MODEL_PATH = os.path.join(BASE_DIR, 'models','modelo_spotify.pkl')
 
 app = FastAPI(title="API de Predicción de Popularidad Spotify")
 
