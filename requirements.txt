@@ -6,3 +6,5 @@ pydantic
 joblib
 streamlit
 requests
+seaborn
+matplotlib

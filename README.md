@@ -20,7 +20,7 @@ Instrucciones de Ejecución (Local
 
 **Instalar las dependencias:**
 
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 
 *Levantar el Servidor Backend (FastAPI):
 uvicorn servidor:app --reload
